@@ -485,12 +485,17 @@ img {
   margin-bottom: 16px;
 }
 .subscribe-input {
-  background-color: #2e2f42;
+  background-color: transparent;
   border: 1px solid #fff;
   border-radius: 4px;
   width: 264px;
   height: 40px;
   color: #fff;
+  font-size: 12px;
+  line-height: 2;
+  letter-spacing: 0.04em;
+  padding-left: 16px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 .subscribe-input::placeholder {
   font-size: 12px;
@@ -502,26 +507,33 @@ img {
   border: none;
   border-radius: 4px;
   padding: 8px 24px;
-  width: 165px;
+  min-width: 165px;
   height: 40px;
   background-color: #4d5ae5;
-  color: #fff;
+  color: #ffffff;
+  cursor: pointer;
   font-weight: 500;
   font-size: 16px;
-  gap: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
   justify-content: center;
   align-items: center;
+  font-family: "Roboto", sans-serif;
 }
-/* .email-btn {
+.form-footer {
   display: flex;
   gap: 24px;
 }
-.email-btn:hover,
+.from-label-footer{
+
+}
+/* .email-btn:hover,
 .email-btn:focus {
   transition: backgroung-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 } */
 .icon-send {
   fill: #fff;
+  margin-left: 16px;
 }
 .backdrop {
   background-color: rgba(46, 47, 66, 0.4);
