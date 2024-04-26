@@ -497,7 +497,7 @@ img {
   color: #fff;
   padding-left: 16px;
 }
-.btm-subscribe {
+.btn-subscribe {
   display: flex;
   border: none;
   border-radius: 4px;
@@ -512,14 +512,14 @@ img {
   justify-content: center;
   align-items: center;
 }
-.email-btn {
+/* .email-btn {
   display: flex;
   gap: 24px;
 }
 .email-btn:hover,
 .email-btn:focus {
   transition: backgroung-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
+} */
 .icon-send {
   fill: #fff;
 }
